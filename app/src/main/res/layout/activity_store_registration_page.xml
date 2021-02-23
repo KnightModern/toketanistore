@@ -75,7 +75,7 @@
                 android:background="@drawable/back_boarder_1"
                 android:hint="Store Number"
                 android:inputType="number"
-                android:maxLength="10"
+                android:maxLength="15"
                 android:paddingStart="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

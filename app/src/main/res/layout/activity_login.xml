@@ -73,7 +73,7 @@
                 android:layout_marginTop="@dimen/space_4"
                 android:layout_marginRight="@dimen/space_12"
                 android:background="@drawable/xml_textbox_bg"
-                android:ems="10"
+                android:ems="15"
                 android:gravity="center_horizontal"
                 android:inputType="textEmailAddress"
                 android:padding="@dimen/space_10"

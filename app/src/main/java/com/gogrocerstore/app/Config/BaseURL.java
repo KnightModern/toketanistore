@@ -27,7 +27,7 @@ public class BaseURL {
     public static final String KEY_ORDER_ID = "ORDER_ID";
     static final String APP_NAME = "StoreManager";
 
-    public static String IMG_PRODUCT_URL = "https://gogrocer.tecmanic.com/";
+    public static String IMG_PRODUCT_URL = "http://betabookapp.96.lt/toketani/";
     public static String BASE_URLGOGrocer = IMG_PRODUCT_URL+"api/";
     public static String BASE_URL = BASE_URLGOGrocer+"store/";
     public static String LOGIN_URL = BASE_URL + "store_login";
