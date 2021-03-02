@@ -26,6 +26,7 @@
             android:id="@+id/nav_product_list"
             android:icon="@drawable/ic_action_nav_product_list"
             android:title="@string/nav_Products" />
+
         <item
             android:id="@+id/nav_stock_update"
             android:icon="@drawable/ic_action_nav_stock_update"

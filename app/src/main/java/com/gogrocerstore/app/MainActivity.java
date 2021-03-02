@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tv_name = (TextView) header.findViewById(R.id.tv_header_name);
         new Thread(this::getCurrency).start();
         updateHeader();
-        sideMenu();
+        /*sideMenu();*/
 //        currency();
 
         if (savedInstanceState == null) {
@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
-    public void sideMenu() {
+    /*public void sideMenu() {
         if (sessionManagement.isLoggedIn()) {
             nav_menu.findItem(R.id.nav_logout).setVisible(true);
         } else {
@@ -271,7 +271,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             nav_menu.findItem(R.id.nav_logout).setVisible(false);
 
         }
-    }
+    }*/
 
     public void setTitle(String title) {
         getSupportActionBar().setTitle(title);

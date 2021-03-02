@@ -25,7 +25,7 @@ public class BaseURL {
     public static final String stock = "stock";
     public static final String KEY_DELIVERY_BOY_NAME = "BOY_NAME";
     public static final String KEY_ORDER_ID = "ORDER_ID";
-    static final String APP_NAME = "StoreManager";
+    static final String APP_NAME = "TokeTani Store";
 
     public static String IMG_PRODUCT_URL = "http://betabookapp.96.lt/toketani/";
     public static String BASE_URLGOGrocer = IMG_PRODUCT_URL+"api/";

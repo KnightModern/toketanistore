@@ -116,7 +116,7 @@
 
         <!--&lt;!&ndash;                            &ndash;&gt;-->
 
-        <!--&lt;!&ndash;                            <com.gogrocersm.storemanager.Fonts.LatoBLack&ndash;&gt;-->
+        <!--&lt;!&ndash;                            <com.gogrocersm.toketanistore.Fonts.LatoBLack&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:id="@+id/textRuppes"&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:layout_width="wrap_content"&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:layout_height="wrap_content"&ndash;&gt;-->
@@ -135,7 +135,7 @@
         <!--&lt;!&ndash;                        android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
         <!--&lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
 
-        <!--&lt;!&ndash;                        <com.gogrocersm.storemanager.Fonts.LatoBLack&ndash;&gt;-->
+        <!--&lt;!&ndash;                        <com.gogrocersm.toketanistore.Fonts.LatoBLack&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:id="@+id/tv_order_Detail_qty"&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:layout_width="match_parent"&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
@@ -207,7 +207,7 @@
     <!--                    android:layout_height="wrap_content"-->
     <!--                    android:orientation="horizontal">-->
 
-    <!--                    <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+    <!--                    <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
     <!--                        android:id="@+id/tv_order_Detail_title"-->
     <!--                        android:layout_width="match_parent"-->
     <!--                        android:layout_height="wrap_content"-->
@@ -217,7 +217,7 @@
     <!--                        android:textSize="@dimen/text_size_small"-->
     <!--                        android:textStyle="bold" />-->
 
-    <!--                    <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+    <!--                    <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
     <!--                        android:id="@+id/txtQty"-->
     <!--                        android:layout_width="match_parent"-->
     <!--                        android:layout_height="wrap_content"-->
@@ -249,7 +249,7 @@
     <!--                            android:orientation="horizontal">-->
 
 
-    <!--                            <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+    <!--                            <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
     <!--                                android:id="@+id/tv_order_Detail_price"-->
     <!--                                android:layout_width="wrap_content"-->
     <!--                                android:layout_height="wrap_content"-->
@@ -259,7 +259,7 @@
     <!--                                android:textColor="#000"-->
     <!--                                android:textSize="@dimen/text_size_small" />-->
 
-    <!--                            <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+    <!--                            <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
     <!--                                android:id="@+id/textRuppes"-->
     <!--                                android:layout_width="wrap_content"-->
     <!--                                android:layout_height="wrap_content"-->
@@ -278,7 +278,7 @@
     <!--                        android:gravity="center_vertical|center_horizontal"-->
     <!--                        android:orientation="horizontal">-->
 
-    <!--                        <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+    <!--                        <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
     <!--                            android:id="@+id/tv_order_Detail_qty"-->
     <!--                            android:layout_width="match_parent"-->
     <!--                            android:layout_height="wrap_content"-->

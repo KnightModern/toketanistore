@@ -216,7 +216,7 @@
             <!--                android:background="@drawable/bg_rounded_button"-->
             <!--                android:padding="12dp">-->
 
-            <!--                <com.gogrocersm.storemanager.Fonts.LatoBLack-->
+            <!--                <com.gogrocersm.toketanistore.Fonts.LatoBLack-->
             <!--                    android:layout_width="match_parent"-->
             <!--                    android:layout_height="match_parent"-->
             <!--                    android:gravity="center"-->

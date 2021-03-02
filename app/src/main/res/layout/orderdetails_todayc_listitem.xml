@@ -107,7 +107,7 @@
 
         <!--&lt;!&ndash;                            &ndash;&gt;-->
 
-        <!--&lt;!&ndash;                            <com.gogrocersm.storemanager.Fonts.LatoBLack&ndash;&gt;-->
+        <!--&lt;!&ndash;                            <com.gogrocersm.toketanistore.Fonts.LatoBLack&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:id="@+id/textRuppes"&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:layout_width="wrap_content"&ndash;&gt;-->
         <!--&lt;!&ndash;                                android:layout_height="wrap_content"&ndash;&gt;-->
@@ -126,7 +126,7 @@
         <!--&lt;!&ndash;                        android:gravity="center_vertical|center_horizontal"&ndash;&gt;-->
         <!--&lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
 
-        <!--&lt;!&ndash;                        <com.gogrocersm.storemanager.Fonts.LatoBLack&ndash;&gt;-->
+        <!--&lt;!&ndash;                        <com.gogrocersm.toketanistore.Fonts.LatoBLack&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:id="@+id/tv_order_Detail_qty"&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:layout_width="match_parent"&ndash;&gt;-->
         <!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->

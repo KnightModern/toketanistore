@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">StoreManager</string>
-    <string name="currency" translatable="false">\u20B9</string>
+    <string name="app_name" translatable="false">TokeTani Store</string>
+    <string name="currency" translatable="false">Rp</string>
     <string name="title_activity_main" translatable="false">MainActivity</string>
     <string name="edit_profilee" translatable="false">Store Profile"</string>
     <string name="txtCredits" translatable="false"><a href="http://www.google.com">Google</a></string>
@@ -16,7 +16,7 @@
     <string name="nav_terms" translatable="false">Terms &amp; Conditions</string>
     <string name="user_id" translatable="false">User ID</string>
     <!-- string.xml -->
-    <string name="nav_dashboard" translatable="false">Dashboard</string>
+    <string name="nav_dashboard" translatable="false">Home</string>
     <string name="nav_app_user" translatable="false">App User</string>
     <string name="nav_Products" translatable="false">Products</string>
     <string name="nav_stock_update" translatable="false">Stock Update</string>
@@ -206,6 +206,6 @@
     <string name="PlsChoiceDevice" translatable="false">Please select a paired devices...</string>
 
     <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoidGVjbWFuaWMiLCJhIjoiY2tkbzk4czBqMGh2czJ4dGEyZHE2emhhcSJ9.z68ISkju1nCXg1kSGavvBg</string>
-    <string name="document_proof">Document Proof</string>
+    <string name="document_proof" translatable="false">Document Proof</string>
 
 </resources>

@@ -8,26 +8,39 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar_main"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <include
+            android:layout_weight="1"
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_view12"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:theme="@style/NavigationTheme"
+            app:itemRippleColor="#3c9658"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_nav_menu" />
+
+    </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="295dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/colorPrimary"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
-        app:itemIconTint="#fff"
         app:itemTextAppearance="@style/NavDrawerTextStyle"
+        app:itemIconTint="#999999"
         app:itemTextColor="#fff"
-        app:menu="@menu/activity_main_drawer">
-
-
-    </com.google.android.material.navigation.NavigationView>
-
+        app:menu="@menu/activity_main_drawer"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
