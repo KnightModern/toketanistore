@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gogrocerstore.app">
+    package="com.toketanistore.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -16,7 +16,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
-        android:name="com.gogrocerstore.app.AppController"
+        android:name="com.toketanistore.app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/icons"
         android:label="@string/app_name"
@@ -24,16 +24,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.gogrocerstore.app.Dashboard.GoogleMapActivity"></activity>
+        <activity android:name="com.toketanistore.app.Dashboard.GoogleMapActivity"></activity>
         <activity
-            android:name="com.gogrocerstore.app.registration.StoreRegistrationPage"
+            android:name="com.toketanistore.app.registration.StoreRegistrationPage"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.StockShow" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.Select_Products" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.OrderDetails_today" />
+        <activity android:name="com.toketanistore.app.Dashboard.StockShow" />
+        <activity android:name="com.toketanistore.app.Dashboard.Select_Products" />
+        <activity android:name="com.toketanistore.app.Dashboard.OrderDetails_today" />
         <activity
-            android:name="com.gogrocerstore.app.SplashActivity"
+            android:name="com.toketanistore.app.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gogrocerstore.app.Dashboard.AllProducts">
+        <activity android:name="com.toketanistore.app.Dashboard.AllProducts">
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -50,7 +50,7 @@
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gogrocerstore.app.Dashboard.AppUserActivity">
+        <activity android:name="com.toketanistore.app.Dashboard.AppUserActivity">
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -60,21 +60,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.gogrocerstore.app.Dashboard.ForgotActivity"
+            android:name="com.toketanistore.app.Dashboard.ForgotActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.gogrocerstore.app.Dashboard.LoginActivity"
+            android:name="com.toketanistore.app.Dashboard.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.gogrocerstore.app.MainActivity" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.StockList" />
+        <activity android:name="com.toketanistore.app.MainActivity" />
+        <activity android:name="com.toketanistore.app.Dashboard.StockList" />
         <activity
-            android:name="com.gogrocerstore.app.Dashboard.EditProfile"
+            android:name="com.toketanistore.app.Dashboard.EditProfile"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.gogrocerstore.app.Dashboard.StockUpdate"
+            android:name="com.toketanistore.app.Dashboard.StockUpdate"
             android:windowSoftInputMode="stateHidden|adjustResize" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.MyOrderDeatil" />
-        <activity android:name="com.gogrocerstore.app.Dashboard.OrdersActivity">
+        <activity android:name="com.toketanistore.app.Dashboard.MyOrderDeatil" />
+        <activity android:name="com.toketanistore.app.Dashboard.OrdersActivity">
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -83,9 +83,9 @@
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gogrocerstore.app.Dashboard.AssignSuccess" />
+        <activity android:name="com.toketanistore.app.Dashboard.AssignSuccess" />
 
-        <service android:name="com.gogrocerstore.app.Dashboard.MyFirebaseMessagingService">
+        <service android:name="com.toketanistore.app.Dashboard.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

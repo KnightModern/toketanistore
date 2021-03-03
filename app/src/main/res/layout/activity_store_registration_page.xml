@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fade_white"
-    tools:context="com.gogrocerstore.app.registration.StoreRegistrationPage">
+    tools:context="com.toketanistore.app.registration.StoreRegistrationPage">
     <View
         android:id="@+id/top_view"
         android:layout_width="match_parent"
@@ -301,7 +301,7 @@
             android:layout_height="match_parent"/>
     </androidx.cardview.widget.CardView>
 
-    <com.gogrocerstore.app.Fonts.LatoBLack
+    <com.toketanistore.app.Fonts.LatoBLack
         android:id="@+id/btn.login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

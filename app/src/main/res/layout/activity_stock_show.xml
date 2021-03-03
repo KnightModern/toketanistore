@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.gogrocerstore.app.Dashboard.StockShow">
+    tools:context="com.toketanistore.app.Dashboard.StockShow">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
