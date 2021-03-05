@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         final ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
-        toggle.syncState();
+        /*toggle.syncState();*/
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         Menu m = navigationView.getMenu();
@@ -188,9 +188,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                     if (fm_name.contentEquals("Home_fragment")) {
 
-                        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+                        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
 
-                        toggle.setDrawerIndicatorEnabled(true);
+                        toggle.setDrawerIndicatorEnabled(false);
                         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
                         toggle.syncState();
 
@@ -404,7 +404,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
         getMenuInflater().inflate(R.menu.language, menu);
-
 
         return true;
     }

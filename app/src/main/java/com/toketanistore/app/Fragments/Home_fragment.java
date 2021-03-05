@@ -288,9 +288,9 @@ public class Home_fragment extends Fragment {
         TabLayoutMediator tabLayoutMediator = new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             if (position == 0) {
 //                    tab.setText("Today's Order");
-                tab.setText("Today's Order");
+                tab.setText("Order Hari Ini");
             } else if (position == 1) {
-                tab.setText("Nextday's Order");
+                tab.setText("Order Besok");
             }
 
         });
@@ -357,7 +357,7 @@ public class Home_fragment extends Fragment {
     }
 
 
-    @Override
+        @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_search) {
